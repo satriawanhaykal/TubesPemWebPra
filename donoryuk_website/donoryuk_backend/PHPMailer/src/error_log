@@ -1,0 +1,8 @@
+[15-Jun-2025 17:14:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface 'PHPMailer\PHPMailer\OAuthTokenProvider' not found in /home/donor424/public_html/donoryuk_backend/PHPMailer/src/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/donor424/public_html/donoryuk_backend/PHPMailer/src/OAuth.php on line 36
+[15-Jun-2025 17:14:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface 'PHPMailer\PHPMailer\OAuthTokenProvider' not found in /home/donor424/public_html/donoryuk_backend/PHPMailer/src/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/donor424/public_html/donoryuk_backend/PHPMailer/src/OAuth.php on line 36

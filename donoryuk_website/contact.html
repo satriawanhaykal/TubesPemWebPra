@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak Kami - Donor Yuk!</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <div class="logo-image">
+        <img src="logo.png" alt="Logo">
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn" id="donor-dropdown-btn" role="button">Donor ▾</a><div class="dropdown-content" id="donor-dropdown-content">
+            <a href="daftar-pendonor.html">Menjadi Pendonor</a>
+            <a href="donor.html">Mengambil Darah</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact</a></li> <li id="user-info-navbar" style="display: none;">
+          <span class="nav-user-info"></span>
+        </li>
+        <li id="admin-dashboard-nav-link" style="display: none;"><a href="admin_dashboard.html">Admin Dashboard</a></li>
+        <li id="logout-navbar-display" style="display: none;">
+          <a href="#" class="nav-logout-btn" id="logout-navbar-btn">Logout</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-container">
+    <h1>Hubungi Kami</h1>
+    <p>
+      Kami senang mendengar dari Anda! Jika Anda memiliki pertanyaan, saran, atau ingin berkolaborasi, jangan ragu untuk menghubungi kami melalui informasi di bawah ini:
+    </p>
+
+    <div class="contact-info">
+      <div class="info-item">
+        <h3>Email</h3>
+        <p><a href="mailto:info@donoryuk.xyz">info@donoryuk.xyz</a></p>
+      </div>
+      <div class="info-item">
+        <h3>Telepon/WhatsApp</h3>
+        <p><a href="https://wa.me/6282210218293" target="_blank">+62 822-1021-8293</a></p>
+        <p class="small-text">(Hanya untuk pesan, bukan panggilan)</p>
+      </div>
+      <div class="info-item">
+        <h3>Alamat Kantor</h3>
+        <p>Jl. Sinduadi Jetis, RT.03/RW.02, Kutu Patran, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284</p>
+      </div>
+    </div>
+
+    <p style="margin-top: 30px;">
+      Kami akan berusaha merespons pesan Anda secepat mungkin. Terima kasih atas dukungan Anda untuk misi kami!
+    </p>
+  </main>
+
+  <script src="navbar-script.js"></script>
+</body>
+</html>

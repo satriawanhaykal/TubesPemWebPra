@@ -1,0 +1,400 @@
+[14-Jun-2025 17:17:12 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/donor424/public_html/donoryuk_backend/api/send_call_email.php on line 110
+[14-Jun-2025 17:18:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/donor424/public_html/donoryuk_backend/api/send_call_email.php on line 114
+[14-Jun-2025 17:29:31 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/donor424/public_html/donoryuk_backend/api/send_call_email.php on line 114
+[14-Jun-2025 17:30:51 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/donor424/public_html/donoryuk_backend/api/send_call_email.php on line 114
+[14-Jun-2025 17:37:39 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/donor424/public_html/donoryuk_backend/api/send_call_email.php on line 114
+[14-Jun-2025 17:43:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/donor424/public_html/donoryuk_backend/api/send_call_email.php on line 127
+[14-Jun-2025 17:44:06 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/donor424/public_html/donoryuk_backend/api/send_call_email.php on line 127
+[14-Jun-2025 18:00:40 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 220-mandala.iixcp.rumahweb.net ESMTP Exim 4.98.2 #2 Sat, 14 Jun 2025 18:00:40 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[14-Jun-2025 18:00:40 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: EHLO donoryuk.xyz
+
+[14-Jun-2025 18:00:40 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 250-mandala.iixcp.rumahweb.net Hello donoryuk.xyz [103.247.11.216]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[14-Jun-2025 18:00:40 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: AUTH LOGIN
+
+[14-Jun-2025 18:00:40 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[14-Jun-2025 18:00:40 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[14-Jun-2025 18:00:40 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[14-Jun-2025 18:00:40 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[14-Jun-2025 18:00:42 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 535 Incorrect authentication data
+
+[14-Jun-2025 18:00:42 Asia/Jakarta] PHPMailer Debug (1): SMTP ERROR: Password command failed: 535 Incorrect authentication data
+
+[14-Jun-2025 18:00:42 Asia/Jakarta] PHPMailer Debug (2): SMTP Error: Could not authenticate.
+[14-Jun-2025 18:00:42 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: QUIT
+
+[14-Jun-2025 18:00:42 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 221 mandala.iixcp.rumahweb.net closing connection
+
+[14-Jun-2025 18:00:42 Asia/Jakarta] PHPMailer Debug (2): SMTP Error: Could not authenticate.
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 220-mandala.iixcp.rumahweb.net ESMTP Exim 4.98.2 #2 Sat, 14 Jun 2025 18:06:33 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: EHLO donoryuk.xyz
+
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 250-mandala.iixcp.rumahweb.net Hello donoryuk.xyz [103.247.11.216]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: AUTH LOGIN
+
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 235 Authentication succeeded
+
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: MAIL FROM:<admin@donoryuk.com>
+
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 250 OK
+
+[14-Jun-2025 18:06:33 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: RCPT TO:<haykalbackupwa@gmail.com>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 250 Accepted
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: DATA
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Date: Sat, 14 Jun 2025 18:06:33 +0700
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: To: Satriawan Haykal <haykalbackupwa@gmail.com>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: From: Admin Donor Yuk! <admin@donoryuk.com>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Subject: Panggilan Donor Darah Anda - Donor Yuk!
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Message-ID: <tR8faD2q7HTA2xgxfJ3naZjR8BIV43dMdq2e6CEVuY@donoryuk.xyz>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:  boundary="b1=_tR8faD2q7HTA2xgxfJ3naZjR8BIV43dMdq2e6CEVuY"
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_tR8faD2q7HTA2xgxfJ3naZjR8BIV43dMdq2e6CEVuY
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Yth. Bapak/Ibu Satriawan Haykal,
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Terima kasih atas kesediaan Anda untuk menjadi pendonor darah. Kami memanggil Anda untuk melakukan donor darah di Rumah Sakit Umum Daerah (RSUD) Kota Yogyakarta pada waktu yang direkomendasikan 15:00:00 WIB. Nomor antrean Anda: 8. Pastikan Anda telah memenuhi semua kriteria donor dan membawa identitas diri. Terima kasih atas kepedulian Anda. Setetes darah Anda sangat berarti bagi mereka yang membutuhkan.
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_tR8faD2q7HTA2xgxfJ3naZjR8BIV43dMdq2e6CEVuY
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             <!DOCTYPE html>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             <html>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             <head>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                 <style>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .container { width: 80%; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .header { background-color: #dc3545; color: white; padding: 10px 0; text-align: center; border-radius: 5px 5px 0 0; }
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .content { padding: 20px; }
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .footer { text-align: center; font-size: 0.8em; color: #777; margin-top: 20px; }
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .button { display: inline-block; background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                 </style>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             </head>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             <body>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                 <div class='container'>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     <div class='header'>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <h2>Panggilan Donor Darah</h2>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     </div>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     <div class='content'>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Yth. Bapak/Ibu <strong>Satriawan Haykal</strong>,</p>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Terima kasih atas kesediaan Anda untuk menjadi pendonor darah.</p>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Dengan hormat, kami memanggil Anda untuk melakukan donor darah dengan detail sebagai berikut:</p>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <ul>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                             <li><strong>Nomor Antrean:</strong> 8</li>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                             <li><strong>Rumah Sakit:</strong> Rumah Sakit Umum Daerah (RSUD) Kota Yogyakarta</li>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                             <li><strong>Waktu yang Direkomendasikan:</strong> 15:00:00 WIB</li>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                             <li><strong>Tanggal Panggilan:</strong> 14-06-2025</li>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         </ul>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Mohon datang ke lokasi pada waktu yang disebutkan atau sesuaikan dengan konfirmasi dari pihak rumah sakit. Pastikan Anda telah memenuhi semua kriteria donor.</p>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Bawa identitas diri (KTP/SIM) dan pastikan kondisi tubuh Anda fit.</p>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Apabila ada pertanyaan lebih lanjut, silakan hubungi pihak rumah sakit yang bersangkutan.</p>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Terima kasih atas kepedulian Anda. Setetes darah Anda sangat berarti bagi mereka yang membutuhkan.</p>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p style="text-align: center; margin-top: 20px;"><a href="https://donoryuk.xyz" class="button">Kunjungi Donor Yuk!</a></p>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     </div>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     <div class='footer'>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>&copy; 2025 Donor Yuk!. Semua hak dilindungi.</p>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     </div>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                 </div>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             </body>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             </html>
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:         
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_tR8faD2q7HTA2xgxfJ3naZjR8BIV43dMdq2e6CEVuY--
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: .
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 250 OK id=1uQOiX-0000000EfSu-1odD
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: QUIT
+
+[14-Jun-2025 18:06:34 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 221 mandala.iixcp.rumahweb.net closing connection
+
+[15-Jun-2025 17:13:24 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'donor424_donor_yuk_db.permintaan_darah' doesn't exist in /home/donor424/public_html/donoryuk_backend/objects/permintaan_darah.php:106
+Stack trace:
+#0 /home/donor424/public_html/donoryuk_backend/objects/permintaan_darah.php(106): PDOStatement->execute()
+#1 /home/donor424/public_html/donoryuk_backend/api/get_permintaan_darah.php(42): PermintaanDarah->readAll()
+#2 {main}
+  thrown in /home/donor424/public_html/donoryuk_backend/objects/permintaan_darah.php on line 106
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 220-mandala.iixcp.rumahweb.net ESMTP Exim 4.98.2 #2 Wed, 25 Jun 2025 14:32:18 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: EHLO donoryuk.xyz
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 250-mandala.iixcp.rumahweb.net Hello donoryuk.xyz [103.247.11.216]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: AUTH LOGIN
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 235 Authentication succeeded
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: MAIL FROM:<admin@donoryuk.com>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 250 OK
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: RCPT TO:<satriawan.haykal@gmail.com>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 250 Accepted
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: DATA
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Date: Wed, 25 Jun 2025 14:32:17 +0700
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: To: "M. Ilham Satriawan Haykal" <satriawan.haykal@gmail.com>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: From: Admin Donor Yuk! <admin@donoryuk.com>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Subject: Panggilan Donor Darah Anda - Donor Yuk!
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Message-ID: <hLPqRuVMgJd70hmPJb5NmEXoX3wQWn1Ewj0j9yWYpb0@donoryuk.xyz>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:  boundary="b1=_hLPqRuVMgJd70hmPJb5NmEXoX3wQWn1Ewj0j9yWYpb0"
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_hLPqRuVMgJd70hmPJb5NmEXoX3wQWn1Ewj0j9yWYpb0
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Yth. Bapak/Ibu M. Ilham Satriawan Haykal,
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Terima kasih atas kesediaan Anda untuk menjadi pendonor darah. Kami memanggil Anda untuk melakukan donor darah di Rumah Sakit Umum Daerah (RSUD) Kota Yogyakarta pada waktu yang direkomendasikan 16:30:00 WIB. Nomor antrean Anda: 11. Pastikan Anda telah memenuhi semua kriteria donor dan membawa identitas diri. Terima kasih atas kepedulian Anda. Setetes darah Anda sangat berarti bagi mereka yang membutuhkan.
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_hLPqRuVMgJd70hmPJb5NmEXoX3wQWn1Ewj0j9yWYpb0
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             <!DOCTYPE html>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             <html>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             <head>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                 <style>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .container { width: 80%; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .header { background-color: #dc3545; color: white; padding: 10px 0; text-align: center; border-radius: 5px 5px 0 0; }
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .content { padding: 20px; }
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .footer { text-align: center; font-size: 0.8em; color: #777; margin-top: 20px; }
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     .button { display: inline-block; background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                 </style>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             </head>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             <body>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                 <div class='container'>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     <div class='header'>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <h2>Panggilan Donor Darah</h2>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     </div>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     <div class='content'>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Yth. Bapak/Ibu <strong>M. Ilham Satriawan Haykal</strong>,</p>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Terima kasih atas kesediaan Anda untuk menjadi pendonor darah.</p>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Dengan hormat, kami memanggil Anda untuk melakukan donor darah dengan detail sebagai berikut:</p>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <ul>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                             <li><strong>Nomor Antrean:</strong> 11</li>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                             <li><strong>Rumah Sakit:</strong> Rumah Sakit Umum Daerah (RSUD) Kota Yogyakarta</li>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                             <li><strong>Waktu yang Direkomendasikan:</strong> 16:30:00 WIB</li>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                             <li><strong>Tanggal Panggilan:</strong> 25-06-2025</li>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         </ul>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Mohon datang ke lokasi pada waktu yang disebutkan atau sesuaikan dengan konfirmasi dari pihak rumah sakit. Pastikan Anda telah memenuhi semua kriteria donor.</p>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Bawa identitas diri (KTP/SIM) dan pastikan kondisi tubuh Anda fit.</p>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Apabila ada pertanyaan lebih lanjut, silakan hubungi pihak rumah sakit yang bersangkutan.</p>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>Terima kasih atas kepedulian Anda. Setetes darah Anda sangat berarti bagi mereka yang membutuhkan.</p>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p style="text-align: center; margin-top: 20px;"><a href="https://donoryuk.xyz" class="button">Kunjungi Donor Yuk!</a></p>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     </div>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     <div class='footer'>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                         <p>&copy; 2025 Donor Yuk!. Semua hak dilindungi.</p>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                     </div>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:                 </div>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             </body>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:             </html>
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER:         
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_hLPqRuVMgJd70hmPJb5NmEXoX3wQWn1Ewj0j9yWYpb0--
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: .
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 250 OK id=1uUKcE-0000000H8W4-3p8G
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (1): CLIENT -> SERVER: QUIT
+
+[25-Jun-2025 14:32:18 Asia/Jakarta] PHPMailer Debug (2): SERVER -> CLIENT: 221 mandala.iixcp.rumahweb.net closing connection
+
